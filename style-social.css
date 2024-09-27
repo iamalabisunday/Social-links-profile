@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Bricolage Grotesque;
+    color: #FFFFFF;
+}
+
+.body-position {
+    height: 100vh;
+    width: 100vw;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #1F1F1F;
+    width: fit-content;
+    height: auto;
+    padding: 3.125rem;
+    border-radius: 1rem;
+}
+
+.profile-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px; 
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Name-location Section */
+.name-container  h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.location-container p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #7BE244;
+}
+
+.name-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.work-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-title-container p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+/* Button-Section */
+.button-container button {
+    width: 25rem;
+    height: 3.75rem;
+    color: #FFFFFF;
+    background-color: #333;
+    border-radius: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 14px;
+}
